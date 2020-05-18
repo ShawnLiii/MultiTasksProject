@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		3D504E0E2470D75100077341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E0D2470D75100077341 /* AppDelegate.swift */; };
 		3D504E102470D75100077341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E0F2470D75100077341 /* SceneDelegate.swift */; };
-		3D504E122470D75100077341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E112470D75100077341 /* ViewController.swift */; };
+		3D504E122470D75100077341 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E112470D75100077341 /* PhotosViewController.swift */; };
 		3D504E152470D75100077341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D504E132470D75100077341 /* Main.storyboard */; };
 		3D504E172470D75100077341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D504E162470D75100077341 /* Assets.xcassets */; };
 		3D504E1A2470D75100077341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D504E182470D75100077341 /* LaunchScreen.storyboard */; };
+		3D504E282470DA5900077341 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E272470DA5900077341 /* ToDo.swift */; };
+		3D504E2B2470DAA100077341 /* ToDoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E2A2470DAA100077341 /* ToDoCollectionViewCell.swift */; };
+		3D504E2D2471BE0400077341 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E2C2471BE0400077341 /* Photo.swift */; };
+		3D504E302471C14D00077341 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E2F2471C14D00077341 /* PhotoCollectionViewCell.swift */; };
+		3D504E322471D84400077341 /* ToDoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E312471D84400077341 /* ToDoCollectionViewController.swift */; };
+		3D504E3624720B5F00077341 /* PokemonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E3524720B5F00077341 /* PokemonCollectionViewController.swift */; };
+		3D504E3824720BAF00077341 /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E3724720BAF00077341 /* PokemonCollectionViewCell.swift */; };
+		3D504E3A24720D5A00077341 /* pokedex.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D504E3924720D5A00077341 /* pokedex.json */; };
+		3D504E3C24720DBA00077341 /* PokeDex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E3B24720DBA00077341 /* PokeDex.swift */; };
+		3D504E3E24722F7400077341 /* PostReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E3D24722F7400077341 /* PostReqViewController.swift */; };
+		3D504E4024723FE000077341 /* Letter.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3D504E3F24723FE000077341 /* Letter.xml */; };
+		3D504E42247241C800077341 /* XMLLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E41247241C800077341 /* XMLLetterViewController.swift */; };
+		3D504E462472492E00077341 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D504E452472492E00077341 /* Letter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D504E0A2470D75100077341 /* MultiTasksProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTasksProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D504E0D2470D75100077341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D504E0F2470D75100077341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D504E112470D75100077341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D504E112470D75100077341 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		3D504E142470D75100077341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D504E162470D75100077341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D504E192470D75100077341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D504E1B2470D75100077341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D504E272470DA5900077341 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		3D504E2A2470DAA100077341 /* ToDoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D504E2C2471BE0400077341 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		3D504E2F2471C14D00077341 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D504E312471D84400077341 /* ToDoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCollectionViewController.swift; sourceTree = "<group>"; };
+		3D504E3524720B5F00077341 /* PokemonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewController.swift; sourceTree = "<group>"; };
+		3D504E3724720BAF00077341 /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D504E3924720D5A00077341 /* pokedex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokedex.json; sourceTree = "<group>"; };
+		3D504E3B24720DBA00077341 /* PokeDex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDex.swift; sourceTree = "<group>"; };
+		3D504E3D24722F7400077341 /* PostReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostReqViewController.swift; sourceTree = "<group>"; };
+		3D504E3F24723FE000077341 /* Letter.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Letter.xml; sourceTree = "<group>"; };
+		3D504E41247241C800077341 /* XMLLetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLLetterViewController.swift; sourceTree = "<group>"; };
+		3D504E452472492E00077341 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,76 @@
 		3D504E0C2470D75100077341 /* MultiTasksProject */ = {
 			isa = PBXGroup;
 			children = (
-				3D504E0D2470D75100077341 /* AppDelegate.swift */,
-				3D504E0F2470D75100077341 /* SceneDelegate.swift */,
-				3D504E112470D75100077341 /* ViewController.swift */,
-				3D504E132470D75100077341 /* Main.storyboard */,
-				3D504E162470D75100077341 /* Assets.xcassets */,
-				3D504E182470D75100077341 /* LaunchScreen.storyboard */,
-				3D504E1B2470D75100077341 /* Info.plist */,
+				3D504E212470D75900077341 /* Common */,
+				3D504E292470DA6900077341 /* Model */,
+				3D504E232470D76B00077341 /* View */,
+				3D504E222470D76100077341 /* Controller */,
+				3D504E242470D77500077341 /* Support Files */,
 			);
 			path = MultiTasksProject;
+			sourceTree = "<group>";
+		};
+		3D504E212470D75900077341 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D504E0D2470D75100077341 /* AppDelegate.swift */,
+				3D504E0F2470D75100077341 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D504E222470D76100077341 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D504E112470D75100077341 /* PhotosViewController.swift */,
+				3D504E312471D84400077341 /* ToDoCollectionViewController.swift */,
+				3D504E3524720B5F00077341 /* PokemonCollectionViewController.swift */,
+				3D504E3D24722F7400077341 /* PostReqViewController.swift */,
+				3D504E41247241C800077341 /* XMLLetterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D504E232470D76B00077341 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D504E132470D75100077341 /* Main.storyboard */,
+				3D504E182470D75100077341 /* LaunchScreen.storyboard */,
+				3D504E2E2471C12C00077341 /* Customize Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D504E242470D77500077341 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D504E162470D75100077341 /* Assets.xcassets */,
+				3D504E1B2470D75100077341 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		3D504E292470DA6900077341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D504E3924720D5A00077341 /* pokedex.json */,
+				3D504E3F24723FE000077341 /* Letter.xml */,
+				3D504E272470DA5900077341 /* ToDo.swift */,
+				3D504E2C2471BE0400077341 /* Photo.swift */,
+				3D504E3B24720DBA00077341 /* PokeDex.swift */,
+				3D504E452472492E00077341 /* Letter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D504E2E2471C12C00077341 /* Customize Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3D504E2A2470DAA100077341 /* ToDoCollectionViewCell.swift */,
+				3D504E2F2471C14D00077341 /* PhotoCollectionViewCell.swift */,
+				3D504E3724720BAF00077341 /* PokemonCollectionViewCell.swift */,
+			);
+			path = "Customize Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +214,9 @@
 			files = (
 				3D504E1A2470D75100077341 /* LaunchScreen.storyboard in Resources */,
 				3D504E172470D75100077341 /* Assets.xcassets in Resources */,
+				3D504E3A24720D5A00077341 /* pokedex.json in Resources */,
 				3D504E152470D75100077341 /* Main.storyboard in Resources */,
+				3D504E4024723FE000077341 /* Letter.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +227,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D504E122470D75100077341 /* ViewController.swift in Sources */,
+				3D504E2D2471BE0400077341 /* Photo.swift in Sources */,
+				3D504E42247241C800077341 /* XMLLetterViewController.swift in Sources */,
+				3D504E302471C14D00077341 /* PhotoCollectionViewCell.swift in Sources */,
+				3D504E282470DA5900077341 /* ToDo.swift in Sources */,
+				3D504E3824720BAF00077341 /* PokemonCollectionViewCell.swift in Sources */,
+				3D504E2B2470DAA100077341 /* ToDoCollectionViewCell.swift in Sources */,
+				3D504E3C24720DBA00077341 /* PokeDex.swift in Sources */,
+				3D504E462472492E00077341 /* Letter.swift in Sources */,
+				3D504E122470D75100077341 /* PhotosViewController.swift in Sources */,
+				3D504E3624720B5F00077341 /* PokemonCollectionViewController.swift in Sources */,
 				3D504E0E2470D75100077341 /* AppDelegate.swift in Sources */,
+				3D504E322471D84400077341 /* ToDoCollectionViewController.swift in Sources */,
 				3D504E102470D75100077341 /* SceneDelegate.swift in Sources */,
+				3D504E3E24722F7400077341 /* PostReqViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
