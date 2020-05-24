@@ -80,7 +80,7 @@ class PokemonCollectionViewController: UICollectionViewController
         let navView = UIView()
         // Create a label
         let label = UILabel()
-        label.text = "Pokemon Dex"
+        label.text = " Pokemon Dex"
         label.sizeToFit()
         label.center = navView.center
         label.textAlignment = NSTextAlignment.center

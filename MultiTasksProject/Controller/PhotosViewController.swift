@@ -77,8 +77,6 @@ class PhotosViewController: UIViewController, UICollectionViewDelegate, UICollec
         collectionView.delegate = self
         collectionView.dataSource = self
         let width = (view.frame.size.width - 10) / 2
-//        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-//        layout.itemSize = CGSize(width: width, height: width + 80 )
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: width, height: width + 80)
         collectionView.collectionViewLayout = layout
